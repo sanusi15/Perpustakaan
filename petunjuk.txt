@@ -1,0 +1,12 @@
+Tahap konfigurasi
+1. Install xampp versi 7.4 atau diatasnya lebih baik.
+2. Extrak file projek ke C:\xampp\htdoc\
+3. Buat database baru di phpmyadmin. Contoh nama database "db_perpustakaan".
+4. Import file sql yg ada di folder db ke database "db_perpustakaan".
+5. Buka file application\config\database.php *buka dengan visual studio code/sublime text/notepad++
+6. Sesuaikan nama database pada baris 81, 'database' => 'db_perpustakaan'.
+7. Jalankan di browser, "localhost/nama_folder"
+
+login
+1. Username = admin
+2. Password = 123
